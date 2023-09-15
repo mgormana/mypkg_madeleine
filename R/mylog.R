@@ -16,6 +16,7 @@ mylog <- function(x) {
   res <- numeric(n) #initializing vector of results
   for (i in 1:n) {
     res[i]<- log(x[i])
+    )
   }
   return(res)
 }
